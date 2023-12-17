@@ -1,4 +1,10 @@
 {
-  "item.devilmaycrymod.redorb": "Red orb",
+  "item.devilmaycrymod.redorb": "Red Orb",
+  "item.devilmaycrymod.vital_star_s": "Small Vital Star",
+  "item.devilmaycrymod.vital_star_m": "Medium Vital Star",
+  "item.devilmaycrymod.vital_star_l": "Large Vital Star",
+
+  "block.devilmaycrymod.hexagon_block": "Hexagon Block",
+
   "itemGroup.devilmaycrytab": "Devil May Cry"
 }
