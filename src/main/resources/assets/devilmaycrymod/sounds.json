@@ -4,5 +4,35 @@
     "sounds": [
       "devilmaycrymod:wing_block_jump"
     ]
+  },
+  "dmc5_vergil_theme": {
+    "subtitle": "sounds.devilmaycrymod.dmc5_vergil_theme",
+    "sounds": [
+      "devilmaycrymod:dmc5_vergil_theme"
+    ]
+  },
+  "dmc3_devils_never_cry": {
+    "subtitle": "sounds.devilmaycrymod.dmc3_devils_never_cry",
+    "sounds": [
+      "devilmaycrymod:dmc3_devils_never_cry"
+    ]
+  },
+  "dmc5_v_theme": {
+    "subtitle": "sounds.devilmaycrymod.dmc5_v_theme",
+    "sounds": [
+      "devilmaycrymod:dmc5_v_theme"
+    ]
+  },
+  "dmc5_nero_theme": {
+    "subtitle": "sounds.devilmaycrymod.dmc5_nero_theme",
+    "sounds": [
+      "devilmaycrymod:dmc5_nero_theme"
+    ]
+  },
+  "dmc5_dante_theme": {
+    "subtitle": "sounds.devilmaycrymod.dmc5_dante_theme",
+    "sounds": [
+      "devilmaycrymod:dmc5_dante_theme"
+    ]
   }
 }

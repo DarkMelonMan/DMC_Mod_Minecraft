@@ -3,6 +3,17 @@
   "item.devilmaycrymod.vital_star_s": "Small Vital Star",
   "item.devilmaycrymod.vital_star_m": "Medium Vital Star",
   "item.devilmaycrymod.vital_star_l": "Large Vital Star",
+  "item.devilmaycrymod.bury_the_light_record": "Music Disc",
+  "item.devilmaycrymod.subhuman_record": "Music Disc",
+  "item.devilmaycrymod.devil_trigger_record": "Music Disc",
+  "item.devilmaycrymod.crimson_cloud_record": "Music Disc",
+  "item.devilmaycrymod.devils_never_cry_record": "Music Disc",
+
+  "item.devilmaycrymod.devils_never_cry_record.desc": "Devil May Cry 3 OST - Devils Never Cry",
+  "item.devilmaycrymod.bury_the_light_record.desc": "Devil May Cry 5 Special Edition OST - Bury The Light",
+  "item.devilmaycrymod.devil_trigger_record.desc": "Devil May Cry 5 OST - Devil Trigger",
+  "item.devilmaycrymod.crimson_cloud_record.desc": "Devil May Cry 5 OST - Crimson Cloud",
+  "item.devilmaycrymod.subhuman_record.desc": "Devil May Cry 5 OST - Subhuman",
 
   "block.devilmaycrymod.hexagon_block": "Hexagon Block",
   "block.devilmaycrymod.red_jumpy_block": "Red Wing Block",
