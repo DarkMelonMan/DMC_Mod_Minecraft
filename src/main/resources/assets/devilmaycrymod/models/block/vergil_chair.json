@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "TEXTURE/texture",
-		"particle": "TEXTURE/texture"
+		"0": "devilmaycrymod:block/texture",
+		"particle": "devilmaycrymod:block/texture"
 	},
 	"elements": [
 		{

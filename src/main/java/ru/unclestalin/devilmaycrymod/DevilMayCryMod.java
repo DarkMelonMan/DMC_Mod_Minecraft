@@ -19,13 +19,12 @@ import ru.unclestalin.devilmaycrymod.item.ModItems;
 public class DevilMayCryMod
 {
     public static final String MOD_ID = "devilmaycrymod";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
     public DevilMayCryMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
     }
 

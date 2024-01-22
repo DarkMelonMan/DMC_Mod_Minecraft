@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "devilmaycrymod:block/jumpy_block_bottom",
+    "side": "devilmaycrymod:block/jumpy_block_bottom",
+    "top": "devilmaycrymod:block/red_jumpy_block"
+  }
+}
