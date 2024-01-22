@@ -25,10 +25,10 @@ public class ModBlocks {
     .strength(6f).requiresCorrectToolForDrops()), DMCCreativeModeTab.DMC_TAB);
 
     public static final RegistryObject<Block> RED_JUMPY_BLOCK = registerBlock("red_jumpy_block", () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
-            .strength(7f).requiresCorrectToolForDrops().jumpFactor(4)), DMCCreativeModeTab.DMC_TAB);
+            .strength(7f).requiresCorrectToolForDrops(), true), DMCCreativeModeTab.DMC_TAB);
 
     public static final RegistryObject<Block> BLUE_JUMPY_BLOCK = registerBlock("blue_jumpy_block", () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
-            .strength(7f).requiresCorrectToolForDrops().jumpFactor(8)), DMCCreativeModeTab.DMC_TAB);
+            .strength(7f).requiresCorrectToolForDrops(), false), DMCCreativeModeTab.DMC_TAB);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

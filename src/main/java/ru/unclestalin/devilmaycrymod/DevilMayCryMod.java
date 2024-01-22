@@ -13,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 import ru.unclestalin.devilmaycrymod.block.ModBlocks;
 import ru.unclestalin.devilmaycrymod.item.ModItems;
+import ru.unclestalin.devilmaycrymod.sound.ModSounds;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(DevilMayCryMod.MOD_ID)
@@ -22,8 +23,13 @@ public class DevilMayCryMod
     public static final Logger LOGGER = LogUtils.getLogger();
     public DevilMayCryMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ModItems.register(modEventBus);
+
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
